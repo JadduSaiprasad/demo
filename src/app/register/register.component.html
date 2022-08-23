@@ -1,0 +1,29 @@
+<form #userform="ngForm" (ngSubmit)="register()">
+    <div *ngIf="!success" class="container" style="margin-left: 400px; margin-top: 60px;">
+    <div style="margin-top: 50px;">
+        <label style="color: white;">UserName:</label>
+        <input type="text" name="username" required #usernameControl="ngModel" [(ngModel)]="username"><br>
+        <p style="margin-left: 75px;" *ngIf="usernameControl.touched && usernameControl.invalid">Username required</p>
+        <label style="color: white;">Password:</label>
+        <input type="password" name="password" autocomplete="on" required #passwordControl="ngModel" [(ngModel)]="password"><br>
+        <p style="margin-left: 75px;" *ngIf="passwordControl.touched && passwordControl.invalid">Password required</p>
+        <label style="color: white;">Email:</label>
+        <input type="Email" name="Email" autocomplete="on" required #EmailControl="ngModel" [(ngModel)]="Email"><br>
+        <p style="margin-left: 75px;" *ngIf="EmailControl.touched && EmailControl.invalid">Email required</p>
+        <label style="color: white;">Phone:</label>
+        <input type="phone" name="phone" autocomplete="on" required #phoneControl="ngModel" [(ngModel)]="phone"><br>
+        <p style="margin-left: 75px;" *ngIf="phoneControl.touched && phoneControl.invalid">Phone Number required</p>
+    
+        <p *ngIf="userform.invalid && onClick">Enter the correct credentials</p>
+        <p *ngIf="userexist">UserAlready exists</p><br>
+        <button [disabled]="!userform.valid" style="margin-left: 185px"
+        class="btn btn-success"
+        type="submit">Register</button><br>
+    </div>
+    </div>
+    
+    
+    </form>
+    
+    <h1 style="margin-left: 350px;" *ngIf="success">LogOut To Register As New User</h1>
+    

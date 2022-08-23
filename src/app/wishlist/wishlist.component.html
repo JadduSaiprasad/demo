@@ -1,0 +1,15 @@
+<h1 *ngIf="success">WishList Books</h1>
+<div *ngIf="success" class="container">
+    <div *ngFor="let ele of wishListElements" class="row">
+        <div class="col-12 book text-center">
+            <p>Title : {{ele.title}}</p>
+            <p>Author : {{ele.author}}</p>
+            <p>Language : {{ele.language}}</p>
+            <p>Pages : {{ele.pages}}</p>
+            <p>PublishYear : {{ele.year}}</p>
+            <p>Country : {{ele.country}}</p>
+            <a href="{{ele.link}}" style="color:rgb(237, 14, 14) ;">Refer The Book</a><br><br>
+        </div>
+    </div>
+</div>
+<h2 style="color: crimson;"    *ngIf="!success">Login To See Your WishList Books</h2>

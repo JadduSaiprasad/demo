@@ -1,0 +1,27 @@
+p{
+    color:red;
+    padding-left:100px;
+    font-size:x-small;
+}
+h1{
+    margin-left:450px;
+    color:rgb(5, 107, 39);
+}
+.container{
+    background-color: #0c0c0c;
+    height:415px;
+    border-radius:50px;
+    border-color:rgb(14, 220, 25);
+    border-style:solid;
+    padding-top:20px;
+    display: flexbox;
+    width: 500px;
+    clear: both;
+    justify-content: center;
+    position: absolute;
+}
+.container input{
+    
+    width: 100%;
+    clear: both;
+}

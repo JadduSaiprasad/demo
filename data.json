@@ -1,0 +1,124 @@
+{
+  "Books": [
+    {
+      "id": 1,
+      "author": "Ovid",
+      "country": "Roman Empire",
+      "language": "Classical Latin",
+      "link": "https://en.wikipedia.org/wiki/Metamorphoses\n",
+      "pages": 576,
+      "title": "Metamorphoses",
+      "year": 1985
+    },
+    {
+      "id": 2,
+      "author": "Fernando Pessoa",
+      "country": "Portugal",
+      "language": "Portuguese",
+      "link": "https://en.wikipedia.org/wiki/The_Book_of_Disquiet\n",
+      "pages": 272,
+      "title": "The Book of Disquiet",
+      "year": 1928
+    },
+    {
+      "id": 3,
+      "author": "Edgar Allan Poe",
+      "country": "United States",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales\n",
+      "pages": 842,
+      "title": "Tales",
+      "year": 1950
+    },
+    {
+      "id": 4,
+      "author": "Marcel Proust",
+      "country": "France",
+      "language": "French",
+      "link": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time\n",
+      "pages": 2408,
+      "title": "In Search of Lost Time",
+      "year": 1920
+    },
+    {
+      "id": 5,
+      "author": "François Rabelais",
+      "country": "France",
+      "language": "French",
+      "link": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel\n",
+      "pages": 623,
+      "title": "Gargantua and Pantagruel",
+      "year": 1533
+    },
+    {
+      "id": 6,
+      "author": "Juan Rulfo",
+      "country": "Mexico",
+      "language": "Spanish",
+      "link": "https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo\n",
+      "pages": 124,
+      "title": "Pedro Páramo",
+      "year": 1955
+    },
+    {
+      "id": 7,
+      "author": "Rumi",
+      "country": "Sultanate of Rum",
+      "language": "Persian",
+      "link": "https://en.wikipedia.org/wiki/Masnavi\n",
+      "pages": 438,
+      "title": "The Masnavi",
+      "year": 1236
+    },
+    {
+      "id": 8,
+      "author": "Salman Rushdie",
+      "country": "United Kingdom, India",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Midnight%27s_Children\n",
+      "pages": 536,
+      "title": "Midnight's Children",
+      "year": 1981
+    },
+    {
+      "id": 9,
+      "author": "Saadi",
+      "country": "Persia, Persian Empire",
+      "language": "Persian",
+      "link": "https://en.wikipedia.org/wiki/Bustan_(book)\n",
+      "pages": 298,
+      "title": "Bostan",
+      "year": 1257
+    },
+    {
+      "id": 10,
+      "author": "Tayeb Salih",
+      "country": "Sudan",
+      "language": "Arabic",
+      "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North\n",
+      "pages": 139,
+      "title": "Season of Migration to the North",
+      "year": 1966
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "userName": "Jaddu Sai prasad",
+      "Password": "1234",
+      "Phone": "8688044242",
+      "Email": "jaddusaiprasad455@gmail.com",
+      "Usertype": "Customer",
+      "WishList": [
+        5,
+        1,
+        2,
+        4
+      ],
+      "Completed": [
+        1,
+        4
+      ]
+    }
+  ]
+}
